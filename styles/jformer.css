@@ -1,0 +1,544 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+
+/* Table of Content
+==================================================
+	#Reset & Basics
+	#Basic Styles
+	#Site Styles
+	#Typography
+	#Links
+	#Lists
+	#Images
+	#Buttons
+	#Forms
+	#Misc */
+
+
+/* #Reset & Basics (Inspired by E. Meyers)
+================================================== */
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline; }
+	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+		display: block; }
+	body {
+		line-height: 1; }
+	ol, ul {
+		list-style: none; }
+	blockquote, q {
+		quotes: none; }
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+		content: '';
+		content: none; }
+	table {
+		border-collapse: collapse;
+		border-spacing: 0; }
+
+
+/* #Basic Styles
+================================================== */
+	body {
+		background: #1a6826 url('../images/background.jpg') no-repeat;
+		font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		color: #000;
+		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+		-webkit-text-size-adjust: 100%;
+ }
+ 
+.terms{
+	 background: #1a6826 !important;
+	 background-image:none;
+		font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		color: #000;
+		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+		-webkit-text-size-adjust: 100%;
+ }
+ 
+ .terms-body{
+ 	background-color: #fff;
+	height: auto;
+	width: 800px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	margin: 20px;
+	padding: 30px;
+ }
+ 
+	 
+
+
+/* #Typography
+================================================== */
+	h1, h2, h3, h4, h5, h6 {
+		color: #181818;
+		font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-weight: normal; }
+	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
+	h1 { font-size: 46px; line-height: 50px; margin-bottom: 14px;}
+	h2 { font-size: 35px; line-height: 40px; margin-bottom: 10px; }
+	h3 { font-size: 28px; line-height: 34px; margin-bottom: 8px; }
+	h4 { font-size: 21px; line-height: 30px; margin-bottom: 4px; }
+	h5 { font-size: 17px; line-height: 24px; }
+	h6 { font-size: 14px; line-height: 21px; }
+	.subheader { color: #777; }
+
+	p { margin: 0 0 20px 0; }
+	p img { margin: 0; }
+	p.lead { font-size: 21px; line-height: 27px; color: #777;  }
+
+	em { font-style: italic; }
+	strong { font-weight: bold; color: #333; }
+	small { font-size: 80%; }
+
+/*	Blockquotes  */
+	blockquote, blockquote p { font-size: 17px; line-height: 24px; color: #777; font-style: italic; }
+	blockquote { margin: 0 0 20px; padding: 9px 20px 0 19px; border-left: 1px solid #ddd; }
+	blockquote cite { display: block; font-size: 12px; color: #555; }
+	blockquote cite:before { content: "\2014 \0020"; }
+	blockquote cite a, blockquote cite a:visited, blockquote cite a:visited { color: #555; }
+
+	hr { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 10px 0 30px; height: 0; }
+
+
+/* #Links
+================================================== */
+	a, a:visited { color: #333; text-decoration: underline; outline: 0; }
+	a:hover, a:focus { color: #000; }
+	p a, p a:visited { line-height: inherit; }
+
+
+/* #Lists
+================================================== */
+	ul, ol { margin-bottom: 20px; }
+	ul { list-style: none outside; }
+	ol { list-style: decimal; }
+	ol, ul.square, ul.circle, ul.disc { margin-left: 30px; }
+	ul.square { list-style: square outside; }
+	ul.circle { list-style: circle outside; }
+	ul.disc { list-style: disc outside; }
+	ul ul, ul ol,
+	ol ol, ol ul { margin: 4px 0 5px 30px; font-size: 90%;  }
+	ul ul li, ul ol li,
+	ol ol li, ol ul li { margin-bottom: 6px; }
+	li { line-height: 18px; margin-bottom: 12px; }
+	ul.large li { line-height: 21px; }
+	li p { line-height: 21px; }
+
+/* #Images
+================================================== */
+
+	img.scale-with-grid {
+		max-width: 100%;
+		height: auto; }
+
+
+/* #Buttons
+================================================== */
+
+	
+
+	/* Fix for odd Mozilla border & padding issues */
+	button::-moz-focus-inner,
+	input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+	}
+
+
+/* #Forms
+================================================== */
+
+	form {
+		margin-bottom: 20px; }
+	fieldset {
+		margin-bottom: 20px; }
+	input[type="text"],
+	input[type="password"],
+	input[type="email"],
+	textarea,
+	select {
+		border: 1px solid #ccc;
+		padding: 6px 4px;
+		outline: none;
+		-moz-border-radius: 2px;
+		-webkit-border-radius: 2px;
+		border-radius: 2px;
+		font: 13px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		color: #777;
+		margin: 0;
+		width: 210px;
+		max-width: 100%;
+		display: block;
+		margin-bottom: 20px;
+		background: #fff; }
+	select {
+		padding: 0; }
+	input[type="text"]:focus,
+	input[type="password"]:focus,
+	input[type="email"]:focus,
+	textarea:focus {
+		border: 1px solid #aaa;
+ 		color: #444;
+ 		-moz-box-shadow: 0 0 3px rgba(0,0,0,.2);
+		-webkit-box-shadow: 0 0 3px rgba(0,0,0,.2);
+		box-shadow:  0 0 3px rgba(0,0,0,.2); }
+	textarea {
+		min-height: 60px; }
+	label,
+	legend {
+		display: block;
+		font-weight: bold;
+		font-size: 13px;  }
+	select {
+		width: 220px; }
+	input[type="checkbox"] {
+		display: inline; }
+	label span,
+	legend span {
+		font-weight: normal;
+		font-size: 13px;
+		color: #444; }
+
+/* #Misc
+================================================== */
+	.remove-bottom { margin-bottom: 0 !important; }
+	.half-bottom { margin-bottom: 10px !important; }
+	.add-bottom { margin-bottom: 20px !important; }
+
+/* Form */
+
+#form-container{
+
+}
+
+#survey-form{
+	position: fixed;
+	margin: 170px auto; 
+	width: 400px; 
+	left: 630px;
+}
+
+.jFormer { font-family: Arial; line-height: 1.25em; }
+.jFormer .jFormerTitle { }
+.jFormer .jFormerDescription { }
+.jFormer .jFormerIFrame { border: none; display: none; width: 600px; height: 200px; clear: both; border: 1px solid #CCC; }
+.jFormer .jFormerAfterControl {  }
+
+/* Alerts and Modal */
+.jFormer .jFormerAlertWrapper { position: fixed; top: 0; left: 0; z-index: 3; text-align: center; width: 100%; margin: 0 0 0 0; }
+.jFormer .jFormerAlertWrapper .error { background-color: red; }
+.jFormer .jFormerAlertWrapper .update { background-color: blue; }
+.jFormer .jFormerAlert { max-width: 100px; margin: 0 auto; padding: .25em 1em .5em 1em; text-align: center; font-weight: bold; background: #333; color:#FFF; font-size: .8em; }
+.jFormer .jFormerModalTransparency { position: absolute; z-index: 99999; width: 100%; height: 100%; left: 0; top: 0; filter: alpha(opacity: 50); -moz-opacity: .5; -khtml-opacity: .5; opacity: .5; background-color: #CCCCCC;}
+.jFormer .jFormerModalWrapper { position: absolute; z-index: 1000000; width: 100%; height: 100%; left: 0; top: 0; }
+.jFormer .jFormerModalWrapper .jFormerModal { border: 1px solid red; background: #F2F2F2; overflow: auto; min-width: 300px; max-width: 500px; margin: 0 auto; font-size: .8em; -webkit-border-radius: 5px; -moz-border-radius: 5px; -moz-box-shadow: 2px 12px 30px #333; }
+.jFormer .jFormerModalWrapper .jFormerModal .jFormerModalHeader { background: #AA231D; color: #FFF; font-size: 1.4em; padding: .1em .25em; }
+.jFormer .jFormerModalWrapper.jFormerModalNotice .jFormerModal { border: 1px solid #257AF8; background: #F2F2F2; overflow: auto; min-width: 300px; max-width: 500px; margin: 0 auto; font-size: .8em; -webkit-border-radius: 5px; -moz-border-radius: 5px; -moz-box-shadow: 2px 12px 30px #333; }
+.jFormer .jFormerModalWrapper.jFormerModalNotice .jFormerModal .jFormerModalHeader { background: #257AF8; color: #FFF; font-size: 1.4em; padding: .1em .25em; }
+.jFormer .jFormerModalWrapper .jFormerModal { border: 1px solid red; background: #F2F2F2; overflow: auto; min-width: 300px; max-width: 500px; margin: 0 auto; font-size: .8em; -webkit-border-radius: 5px; -moz-border-radius: 5px; -moz-box-shadow: 2px 12px 30px #333; }
+.jFormer .jFormerModalWrapper .jFormerModal .jFormerModalContent { padding: .5em; background: #FFF; }
+.jFormer .jFormerModalWrapper .jFormerModal .jFormerModalFooter { border-top: 1px solid #CECECE; text-align: right; }
+.jFormer .jFormerModalWrapper .jFormerModal .jFormerModalFooter button { margin: .5em; font-size: 1em; background: #FFFFFF url(images/button-bg.png) repeat-x scroll left center;  }
+
+/* Page Navigator */
+.jFormer .jFormPageNavigator { overflow: auto; }
+
+
+.jFormer .jFormPageNavigatorTop { }
+.jFormer .jFormPageNavigator ul { margin: 0; }
+.jFormer .jFormPageNavigator li { margin: 0; list-style: none; }
+.jFormer .jFormPageNavigatorTop { border-top: 1px dotted #CCC; border-bottom: 1px dotted #CCC; padding: .55em .5em .5em 0; margin-bottom: .5em; }
+.jFormer .jFormPageNavigatorTop .jFormPageNavigatorLink { float: left; margin: 0 .5em 0 0; text-align: center; color: #000; cursor: pointer; padding: 0 .75em .1em 0; }
+.jFormer .jFormPageNavigatorTop .jFormPageNavigatorLink .jFormNavigatorLinkPrefix { width: 34px; height: 29px; padding: 1px 0 0 0; text-align: center; display: inline-block; }
+.jFormer .jFormPageNavigatorTop .jFormPageNavigatorLinkUnlocked .jFormNavigatorLinkPrefix { background: url(images/page-navigator-unlocked.png) .3em 50% no-repeat; color: #666; }
+.jFormer .jFormPageNavigatorTop .jFormPageNavigatorLinkLocked .jFormNavigatorLinkPrefix { background: url(images/page-navigator-locked.png) .3em 50% no-repeat; color: #666; }
+.jFormer .jFormPageNavigatorTop .jFormPageNavigatorLinkDependencyLocked .jFormNavigatorLinkPrefix { background: url(images/page-navigator-dependency-locked.png) .3em 50% no-repeat; color: #666; }
+.jFormer .jFormPageNavigatorTop .jFormPageNavigatorLinkWarning .jFormNavigatorLinkPrefix { background: url(images/page-navigator-warning.png) .3em 50% no-repeat; }
+.jFormer .jFormPageNavigatorTop .jFormPageNavigatorLinkActive .jFormNavigatorLinkPrefix { background: url(images/page-navigator-active.png) .3em 50% no-repeat; color: #000; font-weight: bold; }
+
+.jFormer .jFormPageNavigatorRight { position: absolute; top: 0; right: 0; }
+.jFormer .jFormPageNavigatorRight .jFormPageNavigatorLink { border: 1px solid #CCC; margin: 0 0 .25em 0; -webkit-border-radius: 5px; -moz-border-radius: 5px; }
+.jFormer .jFormPageNavigatorRight .jFormPageNavigatorLinkUnlocked { padding: .25em .75em .25em 1.9em; background: url(images/accept.png) .3em 50% no-repeat; cursor: pointer; color: #2C8AEF; }
+.jFormer .jFormPageNavigatorRight .jFormPageNavigatorLinkDisabled { padding: .25em .75em .25em .55em; color: #999; cursor: default; }
+.jFormer .jFormPageNavigatorRight .jFormPageNavigatorLinkWarning { padding: .25em .75em .25em 1.9em; background: url(images/error.png) .3em 50% no-repeat; cursor: pointer; color: #2C8AEF; }
+.jFormer .jFormPageNavigatorRight .jFormPageNavigator li.jFormPageNavigatorLinkActive { background-color: #DFEFFF; border: 1px solid #C2D7EF; }
+
+.jFormer .jFormerProgress {}
+.jFormer .jFormerProgressBar { background: #2C8AEF; border: 1px solid #006BDF; -moz-border-radius: 5px; width: 0; }
+.jFormer .jFormerProgressBar p { text-align: center; color: #FFF; line-height: 2em; margin: 0; }
+
+/* Control */
+.jFormer .jFormerControl { clear: both; margin: .75em 0 0 0; padding: 0 0 1.5em 0; list-style: none; overflow: hidden; }
+.jFormer .jFormerControl li { float: left; margin: 0 1em 0 0; position: relative; }
+/*.jFormer .jFormerControl li button { font-size: .8em; margin: 0 0 1em 0; background: #FFFFFF url(../../images/enter-now.png) repeat-x scroll left center; border: 1px solid; border-color: #DEDEDE #BBBBBB #BFBFBF #DEDEDE; padding: .65em .75em; cursor: pointer; -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15); -moz-border-radius: 5px; -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15); -webkit-border-radius: 5px; }
+.jFormer .jFormerControl li button:hover { url(../../images/enter-now-hover.png) repeat-x scroll left center; }
+.jFormer .jFormerControl li button:active { url(../../images/enter-now-hover.png)repeat-x scroll left center; }
+*/
+
+.jFormer .jFormerControl li button { font-size: .0001em; background: url(../../images/enter-now.png) repeat-x scroll left center; width: 335px; height: 67px; border: 0px; }
+.jFormer .jFormerControl li button:hover { background: url(../../images/enter-now-hover.png) repeat-x scroll left center; width: 335px; height: 67px; }
+.jFormer .jFormerControl li button:active { background: url(../../images/enter-now-hover.png) repeat-x scroll left center; width: 335px; height: 67px; }
+
+.jFormer .jFormerControl .jFormerFailureNotice { font-size: .8em; background: url(images/exclamation.png) no-repeat .5em 50%; padding: .25em .75em .25em 2em; background-color: #FFDFE0; border: 1px solid #EFC2C4; -moz-border-radius: 5px; -webkit-border-radius: 5px;  }
+
+/* Pages */
+.jFormer .jFormWrapperContainer { overflow: auto; }
+.jFormer .jFormPageWrapper { overflow: hidden; clear: both; }
+.jFormer .jFormPageScroller { }
+.jFormer .jFormPage { float: left; }
+.jFormer .jFormPage .jFormPageTitle { }
+.jFormer .jFormPage .jFormPageDescription { }
+.jFormer .jFormPageInactive { visibility: hidden; }
+.jFormer .jFormPageSuccess {}
+.jFormer .jFormPageFailure {}
+.jFormer .jFormerFailure { background: url(images/exclamation.png) no-repeat .5em 50%; padding: .25em .75em .25em 2em; background-color: #FFDFE0; border: 1px solid #EFC2C4; -moz-border-radius: 5px; -webkit-border-radius: 5px;  }
+
+/* Sections */
+.jFormer .jFormSection { clear: both; overflow: auto; }
+.jFormer .jFormSection .jFormSectionTitle { }
+.jFormer .jFormSection .jFormSectionDescription { }
+.jFormer .jFormSectionDependencyDisabled { background: url(images/lock.png) no-repeat top right #f1f1f1; color: #CCC; border: 1px solid #f1f1f1; }
+.jFormer .jFormSectionDependencyDisabled:hover { background-color: #f1f1f1; border: 1px solid #CCC; }
+
+/* Instances */
+.jFormer .jFormComponentAddInstanceButton { display: block; margin: 0 0 .75em .65em; background: url(images/add.png) no-repeat .25em 50% #EEEEEE; font-size: .8em; clear: both; border: 1px solid #AAA; padding: .25em .25em .25em 1.5em; cursor: pointer; -moz-border-radius: 5px; }
+.jFormer .jFormComponentRemoveInstanceButton { display: inline; margin: 0 0 0 .5em; background: url(images/cancel.png) no-repeat .25em 50% #EEEEEE; font-size: .8em; clear: both; border: 1px solid #AAA; padding: .25em .25em .25em 1.5em; cursor: pointer; -moz-border-radius: 5px; }
+.jFormer .jFormSectionAddInstanceButton { display: block; margin: 0 0 .75em .65em; background: url(images/add.png) no-repeat .25em 50% #EEEEEE; font-size: .8em; clear: both; border: 1px solid #AAA; padding: .25em .25em .25em 1.5em; cursor: pointer; -moz-border-radius: 5px; }
+.jFormer .jFormSectionRemoveInstanceButton { display: block; margin: 0 0 .75em .65em; background: url(images/cancel.png) no-repeat .25em 50% #EEEEEE; font-size: .8em; clear: both; border: 1px solid #AAA; padding: .25em .25em .25em 1.5em; cursor: pointer; -moz-border-radius: 5px; }
+
+/* Tips */
+.jFormer .jFormerTip { position: absolute; top: 0; left: 0; display: none; z-index: 3; max-width: 300px; _width: 300px; }
+.jFormer .jFormerTip .tipArrow { position: relative; display: block; margin: 8px 0 0 1px; width: 12px; height: 16px; background: url(images/tip-arrow-left.png) no-repeat; }
+.jFormer .jFormerTip .tipContent { position: relative; top: -22px; left: 13px; background: #333333; zoom: 1; color: #FFF; z-index: 3; padding: .75em 1em .75em .95em; -webkit-border-radius: 5px; -moz-border-radius: 5px; -moz-box-shadow: 2px 2px 8px #444; -webkit-box-shadow: 2px 2px 8px #444; }
+.jFormer .jFormerTip .tipContent p { font-size: .8em; color: #FFF; margin: 0 0 0 0; padding: 0 0 0 0; }
+.jFormer .jFormerTip .tipContent li { font-size: .8em; }
+.jFormer table .jFormerTip .tipContent p { font-size: 1em; }
+.jFormer table .jFormerTip .tipContent ul { font-size: 1em; }
+.jFormer .jFormerTip .tipContent ul { margin: 0 0 0 1em; padding: 0 0 0 0; }
+.jFormer .jFormerTip .tipContent .tipErrorUl { color: #FF8F8F; }
+.jFormer .jFormerTip .tipContent .tipErrorUl li { list-style-type: disc; font-weight: bold; }
+.jFormer .jFormerTipBlurred { z-index: 2 !important; }
+.jFormer .jFormerTipBlurred .tipArrow { background: url(images/tip-arrow-left-blurred.png) no-repeat; }
+.jFormer .jFormerTipBlurred .tipContent { background-color: #555; -moz-box-shadow: 2px 2px 8px #555; -webkit-box-shadow: 2px 2px 8px #555; }
+.jFormer .jFormComponentMultipleChoiceTipIcon  { display: inline-block; width: 16px; height: 20px; background: url(images/help.png) no-repeat 0 3px; }
+.jFormer .jFormComponentMultipleChoiceTip .tipArrow { margin-top: 3px !important; }
+.jFormer .jFormComponentMultipleChoiceTip .tipContent { top: -23px !important; }
+.jFormer .jformerTipClose { position: absolute; top:0px; right:5px; cursor: pointer; font-size: .75em; }
+
+/* Components */
+.jFormer .jFormComponent { padding: .25em .8em .5em .5em; overflow: hidden; margin-bottom: 3px; border: 1px solid transparent; float: left; -moz-border-radius: 5px; -webkit-border-radius: 5px; }
+
+
+.jFormer input {
+-moz-border-radius:3px; /* Firefox */
+-webkit-border-radius: 3px; /* Safari, Chrome */
+-khtml-border-radius: 3px; /* KHTML */
+border-radius: 3px; /* CSS3 */
+behavior:url("border-radius.htc");
+}
+
+.jFormer .jFormComponent input { font-family: Arial; font-size: 1em; padding: 3px 1em; background: #FFF; border: 1px solid #FFF; outline:none; }
+.jFormer .jFormComponent select { font-family: Arial; font-size: 1em; padding: 3px 1em; background: #FFF; border: 1px solid #FFF; outline:none; width: 100px }
+.jFormer .jFormComponent textarea { font-family: Arial; font-size: 1em; padding: 3px 1em; background: #FFF; border: 1px solid #FFF; outline:none;}
+.jFormer .jFormComponent .defaultValue { color: #666; }
+.jFormer .jFormComponent .jFormComponentDescription { clear: both; margin: .5em 0 0 0; }
+.jFormer .jFormComponentHighlight { background-color: #fdd900; border: 1px solid #C2D7EF; }
+.jFormer .jFormComponentServerSideCheck { background-color: #FFFCDF; border: 1px solid #EFEBC2; }
+.jFormer .jFormComponentValidationFailed { background-color: #FFDFE0; border: 1px solid #EFC2C4; }
+.jFormer .jFormComponentValidationPassed { }
+.jFormer .jFormComponentDependencyDisabled { background: url(images/lock.png) no-repeat top right #f1f1f1; color: #CCC; }
+.jFormer .jFormComponentDependencyDisabled.jFormComponentHighlight { background-color: #f1f1f1; border: 1px solid #CCC; }
+
+/* Labels and Sublabels */
+.jFormer .jFormComponent .jFormComponentLabel { display: block; font-size: 1em; color: #fff; font-weight: bold; margin: 0 0 5px 0;}
+.jFormer .jFormComponent .jFormComponentLabelRequiredStar { color: #F00; }
+.jFormer .jFormComponentValidationFailed .jFormComponentLabel, .jFormer .jFormComponentValidationFailed .jFormComponentLikertStatementLabel { background: url(images/exclamation.png) no-repeat left; padding-left: 18px; }
+
+.jFormer .jFormComponent .jFormComponentSublabel p { margin: 0; padding: 0; font-size: .7em; }
+
+/* Component Type - SingleLineText */
+.jFormer .jFormComponentSingleLineText input { width: 11em; }
+
+/* Component Type - TextArea */
+.jFormer .jFormComponentTextArea textarea { width: 24em; height: 12em; }
+
+/* Component Type - MultipleChoice */
+.jFormer .jFormComponentMultipleChoice .choiceWrapper { }
+.jFormer .jFormComponentMultipleChoice .choice { cursor: pointer; margin: 3px .35em 0 0; }
+.jFormer .jFormComponentMultipleChoice .choiceLabel { font-size: 1em; color: #fff; font-weight: normal; margin-right: 1em; cursor: pointer; }
+.jFormer .jFormComponentMultipleChoiceTip { z-index: 5; }
+
+/* Component Type - DropDown */
+.jFormer .jFormComponentDropDown .dropDown { display: block; }
+.jFormer .jFormComponentDropDown .dropDown .choice { }
+
+/* Component Type - Hidden */
+.jFormer .jFormComponentHidden { display: none; }
+
+/* Component Type - File */
+.jFormer .jFormComponentFile { }
+.jFormer .jFormComponentFile .pseudoFile { z-index: 1; }
+.jFormer .jFormComponentFile .pseudoFile input { border: 1px solid #AAA !important; color: #000 !important; }
+.jFormer .jFormComponentFile .pseudoFile input:disabled { border: 1px solid #AAA !important; color: #000 !important; }
+.jFormer .jFormComponentFile .pseudoFile button:disabled { color: #000; border: 1px solid; border-color: #DEDEDE #BBBBBB #BFBFBF #DEDEDE; }
+.jFormer .jFormComponentFile .pseudoFile button { font-size: .8em; margin: 0 0 0 .25em; background: #FFFFFF url(images/button-bg.png) repeat-x scroll left center; border: 1px solid; border-color: #DEDEDE #BBBBBB #BFBFBF #DEDEDE; padding: .25em .5em .225em .5em; cursor: pointer; -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15); -moz-border-radius: 5px; -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15); -webkit-border-radius: 5px; }
+.jFormer .jFormComponentFile .file.hidden { z-index: 2; text-align: right; position: relative;  font-size: 1.1em; filter: alpha(opacity: 0); -moz-opacity: 0; -khtml-opacity: 0; opacity: 0; }
+
+/* Component Type - Name */
+.jFormer .jFormComponentName input {width:302px;
+		border:1px solid #dfdfdf;
+		background:#fff;
+		padding:5px 3px;}
+.jFormer .jFormComponentName input:focus {  border: 1px solid #FF3; }
+.jFormer .jFormComponentName .firstNameDiv { display:block; float:left; }
+.jFormer .jFormComponentName .firstName { width: 7em; margin-right: .35em; }
+.jFormer .jFormComponentName .middleInitialDiv { display:block; float:left; }
+.jFormer .jFormComponentName .middleInitial { width: 2em; margin-right: .35em; }
+.jFormer .jFormComponentName .lastNameDiv { display:block; float:left; }
+.jFormer .jFormComponentName .lastName { width: 10em; }
+
+/* Component Type - Address */
+.jFormer .jFormComponentAddress { }
+.jFormer .jFormComponentAddress input:focus { border: 1px solid #888; }
+.jFormer .jFormComponentAddress select:focus {  border: 1px solid #888; }
+.jFormer .jFormComponentAddress .addressLine1Div { display: block; }
+.jFormer .jFormComponentAddress .addressLine1 { width: 24em; }
+.jFormer .jFormComponentAddress .addressLine2Div { display: block; margin-top: .25em; }
+.jFormer .jFormComponentAddress .addressLine2 { width: 24em; }
+.jFormer .jFormComponentAddress .cityDiv { margin: .25em .5em 0 0; display: block; float: left; }
+.jFormer .jFormComponentAddress .city { width: 10em; }
+.jFormer .jFormComponentAddress .stateDiv { margin: .25em 0 0 0; display: block; float: left; }
+.jFormer .jFormComponentAddress .state { width: 12.1em; }
+.jFormer .jFormComponentAddress select.state { padding: .15em 0em; width: 13.35em; }
+.jFormer .jFormComponentAddress .zipDiv { margin: .25em .5em 0 0; clear: both; display: block; float: left; }
+.jFormer .jFormComponentAddress .zip { width: 10em; }
+.jFormer .jFormComponentAddress .countryDiv { margin: .25em 0 0 0; display: block; float: left; }
+.jFormer .jFormComponentAddress .country { width: 13.35em; padding: .15em 0em; }
+
+/* Component Type - CreditCard */
+.jFormer .jFormComponentCreditCard { }
+.jFormer .jFormComponentCreditCard input:focus { border: 1px solid #888; }
+.jFormer .jFormComponentCreditCard select:focus {  border: 1px solid #888; }
+.jFormer .jFormComponentCreditCard .cardTypeDiv { display: block; }
+.jFormer .jFormComponentCreditCard .cardType { width: 14.225em; }
+.jFormer .jFormComponentCreditCard .cardNumberDiv { display: block; margin-top: .25em; }
+.jFormer .jFormComponentCreditCard .cardNumber { width: 13.35em; padding-left: .35em; }
+.jFormer .jFormComponentCreditCard .expirationDateDiv { display: block; margin-top: .25em; float: left; overflow: auto; }
+.jFormer .jFormComponentCreditCard .expirationMonth.long { width: 9.1em; }
+.jFormer .jFormComponentCreditCard .expirationMonth { margin-right: .5em; margin-bottom: .1em; }
+.jFormer .jFormComponentCreditCard .expirationDateSeparator { margin-right: .5em; font-size: .8em; }
+.jFormer .jFormComponentCreditCard .expirationYear { }
+.jFormer .jFormComponentCreditCard .expirationYear.long { width: 4.5em; }
+.jFormer .jFormComponentCreditCard .securityCodeDiv { clear: both; display: block; float: left; margin-top: .25em; }
+.jFormer .jFormComponentCreditCard .securityCode { width: 5em; padding-left: .35em; }
+
+
+/* Component Type - Likert */
+.jFormer .jFormComponentLikert { }
+.jFormer .jFormComponentLikert table.jFormComponentLikertTable { background: #FFF; border-collapse: collapse; }
+.jFormer .jFormComponentLikert table.jFormComponentLikertTable td { border: 1px solid #CCC; }
+.jFormer .jFormComponentLikert table.jFormComponentLikertTable th { border-top: 1px solid #CCC; border-left: 1px solid #CCC; border-right: 1px solid #CCC; }
+.jFormer .jFormComponentLikert table.jFormComponentLikertTable tr { }
+.jFormer .jFormComponentLikert table.jFormComponentLikertTable tr.jFormComponentLikertTableHeading { background: #E6E6E6; }
+.jFormer .jFormComponentLikert table.jFormComponentLikertTable tr.jFormComponentLikertTableRowEven { background-color: #FFF; }
+.jFormer .jFormComponentLikert table.jFormComponentLikertTable tr.jFormComponentLikertTableRowOdd { background-color: #F5F5F5; }
+.jFormer .jFormComponentLikert table.jFormComponentLikertTable tr.jFormComponentHighlight { background-color: #; border: none; }
+.jFormer .jFormComponentLikert table.jFormComponentLikertTable tr.jFormComponentHighlight td {  }
+.jFormer .jFormComponentLikert table.jFormComponentLikertTable tr.jFormComponentValidationFailed { border: none; }
+.jFormer .jFormComponentLikert table.jFormComponentLikertTable tr.jFormComponentValidationFailed td { background-color: #FFEFF0; }
+.jFormer .jFormComponentLikert table.jFormComponentLikertTable th { font-size: .9em; line-height: 1.5em; padding: .5em; text-align: center; max-width: 6em; min-width: 6em; vertical-align: middle; }
+.jFormer .jFormComponentLikert table.jFormComponentLikertTable th.jFormComponentLikertStatementColumn { font-size: 1em; padding: .5em .5em .5em .8em; min-width: 15em; text-align: left; }
+.jFormer .jFormComponentLikert table.jFormComponentLikertTable td { border: 1px solid #CCC; text-align: center; padding: .5em 1.5em; }
+.jFormer .jFormComponentLikert table.jFormComponentLikertTable td.jFormComponentLikertStatementColumn { padding: .5em .5em .5em .8em; min-width: 15em; text-align: left; }
+.jFormer .jFormComponentLikert table.jFormComponentLikertTable label.jFormComponentLikertStatementLabel { font-weight: bold; }
+.jFormer .jFormComponentLikert table.jFormComponentLikertTable div.jFormComponentLikertStatementDescription p { font-size: 1em; }
+.jFormer .jFormComponentLikert label.jFormComponentLikertSublabel { display: block; font-size: .9em; }
+
+/* Component Type - Date */
+.jFormer .jFormComponentDate input { width: 9em; }
+.jFormer .jFormComponentDateButton { cursor:pointer; width: 16px; height: 16px; padding: 0; margin: 0 3px -2px; display: inline-block; text-indent: -2000px; overflow: hidden; background: url(images/calendar.gif) no-repeat; }
+.jFormer .jFormComponentDateSelector { background: #F2F2F2; border: 1px solid #bbb;  padding: 5px 5px 5px 8px;  margin: -1px 0 0 0;  position: absolute;  z-index: 100000;  display: none; -moz-border-radius: 5px; -webkit-border-radius: 5px; }
+.jFormer .jFormComponentDateSelectorIEFrame { position: absolute;  z-index: 99999;  display: none; }
+.jFormer .jFormComponentDateSelector .jFormComponentDateSelectorNavigator {  width: 13.5em; /* 7 * 2.5em */  }
+.jFormer .jFormComponentDateSelector .jFormComponentDateSelectorMonthNavigator, .jFormComponentDateSelector .jFormComponentDateSelectorYearNavigator {  margin: 0 0 3px 0;  padding: 0;  display: block;  position: relative;  text-align: center;  }
+.jFormer .jFormComponentDateSelector .jFormComponentDateSelectorMonthNavigator { float: left;  width: 50%;  }
+.jFormer .jFormComponentDateSelector .jFormComponentDateSelectorYearNavigator { float: right;  width: 35%;  }
+.jFormer .jFormComponentDateSelector .jFormComponentDateSelectorMonthName, .jFormComponentDateSelector .jFormComponentDateSelectorYearName { font-weight: bold; line-height: 20px;  }
+.jFormer .jFormComponentDateSelector .jFormComponentDateSelectorButton { display: block; position: absolute; top: 0; width: 18px; height: 18px; line-height: 17px; font-weight: bold; color: #003C78; text-align: center; font-size: 120%; overflow: hidden; border: 1px solid #F2F2F2; }
+.jFormer .jFormComponentDateSelector .jFormComponentDateSelectorButton:hover, .jFormComponentDateSelector .jFormComponentDateSelectorButton.hover { background: none; color: #003C78; cursor: pointer; border-color: #ccc; }
+.jFormer .jFormComponentDateSelector .jFormComponentDateSelectorPrevious { left: 0; }
+.jFormer .jFormComponentDateSelector .jFormComponentDateSelectorNext { right: 0; }
+.jFormer .jFormComponentDateSelector table { border-spacing: 0; border-collapse: collapse; clear: both; }
+.jFormer .jFormComponentDateSelector th, .jFormComponentDateSelector td { width: 2.3em; height: 2em; padding: 0; text-align: center; color: black; }
+.jFormer .jFormComponentDateSelector td { border: 1px solid #ccc; text-align: center; white-space: nowrap; color: #003C78; background: white; }
+.jFormer .jFormComponentDateSelector td.jFormComponentDateSelectorToday { background: #FFFEB3; }
+.jFormer .jFormComponentDateSelector td.jFormComponentDateSelectorUnselectedMonth { color: #ccc; }
+.jFormer .jFormComponentDateSelector td.jFormComponentDateSelectorSelectedDay { cursor: pointer; }
+.jFormer .jFormComponentDateSelector td.jFormComponentDateSelectorSelected { background: #D8DFE5; font-weight: bold; }
+.jFormer .jFormComponentDateSelector td.jFormComponentDateSelectorSelectedDay:hover, .jFormComponentDateSelector td.jFormComponentDateSelectorSelectedDay.hover { background: #003C78; color: white; }
+
+#zipcode1-wrapper{
+	clear: both;
+}
+
+#dropDown1-wrapper{
+	clear: both;
+}
+
+#maritialstatus1-wrapper{
+	clear: both;
+}
+
+#email1-wrapper{
+	clear: both;
+}
+
+#email1-wrapper input {
+	width: 300px;
+}
+
+.jFormComponentMultipleChoice{
+	width: 340px;
+}
+
+
+#maritialstatus1-choice1-wrapper label { float:left; clear:none; display:block; padding: 2px 1em 0 0; }
+#maritialstatus1-choice2-wrapper label { float:left; clear:none; display:block; padding: 2px 1em 0 0; }
+#maritialstatus1-choice3-wrapper label { float:left; display:block; padding: 2px 1em 0 0;}
+
+
+input[type=radio], input.radio { float:left; clear:none; margin: 2px 0 0 2px; }
+
+#surveyComponentFormjFormPageSuccess h1{
+	color: #fdd900;
+	margin: 50px 25px;
+}
+
+
+#privacy{
+	position: fixed;
+	margin: 730px auto; 
+	width: 450px; 
+	left: 100px;
+	color: #fff;
+	font-size: .7em;
+}
+
+#privacy a {
+	color: #fff;
+	font-size: .8em;
+	text-decoration:underline;
+}
